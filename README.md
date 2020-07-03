@@ -69,7 +69,7 @@ If you look in the `package.json` file you will see all of the external dependen
 
 This workshop is a little "meta". The workshop contains a UI for the tutorial. As go through the questions, you will actually work on the UI of the tutorial and improve the app. You will find all of the questions can be found at the `/question<#>` endpoints in the browser.
 
-e.g. Question 1 is located at `https://localhost:8000/question1`. Type that in the browser. The question should appear!
+e.g. Question 1 is located at `http://localhost:4000/question1/`. Type that in the browser. The question should appear!
 
 <img src="__lecture/assets/ex1.png" />
 
