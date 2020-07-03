@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <title>Node: Workshop 2</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
   <header>
@@ -13,7 +13,11 @@
       <%- include('../partials/questions/3') %>
       <div class="box answer">
         <h3>Answer</h3>
-        <p><%- homer %></p>
+        <p><%- homer.name   %></p>
+        <p><%- homer.dob   %></p>
+        <p><%- homer.profession   %></p>
+        <p><%- homer.favoriteFood   %></p>
+        <p><%- homer.favoriteBeverage   %></p>
       </div>
     </div>
   </div>
