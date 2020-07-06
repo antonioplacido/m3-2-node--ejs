@@ -22,7 +22,7 @@ express()
   .set("view engine", "ejs")
 
   // endpoints
-  .get("/question1", exercisesP1.q1)
+  .get("/question1/", exercisesP1.q1)
   .get("/question2", exercisesP1.q2)
   .get("/question3", exercisesP1.q3)
   .get("/question4", exercisesP1.q4)
@@ -32,6 +32,7 @@ express()
   .get("/question8", q8)
   .get("/question9", q9)
   .get("/question10", q10)
+  // .get("/homepage", q10)
 
   // this serves up the homepage
   .get("/", (req, res) => {
@@ -47,3 +48,4 @@ express()
 
   // Node spins up our server and sets it to listen on the PORT we defined above.
   .listen(4000, () => console.log(`Listening on port 4000`));
+// .listen(8000, () => console.log(`Listening on port 8000`));
