@@ -57,3 +57,5 @@ const q5 = (req, res) => {
 
 // We export the functions so that they may be 'required' or imported in other files.
 module.exports = { q1, q2, q3, q4, q5 };
+
+//HOMEPAGE//
